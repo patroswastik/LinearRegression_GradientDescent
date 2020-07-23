@@ -100,7 +100,7 @@ function draw(){
   background(0);
   line(width-400,0,width-400,height);
   for(var i = 0;i<data.length;i++){
-    var x = map(data[i].x,0,1,0,width - 200);
+    var x = map(data[i].x,0,1,0,width - 400);
     var y = map(data[i].y,0,1,height,0);
     fill(255);
     stroke(255);
